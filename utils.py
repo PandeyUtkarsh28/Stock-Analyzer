@@ -157,3 +157,5 @@ class StockDataAnalyzer:
         except Exception as e:
             print(f"Error using Gemini for prediction: {e}")
             return None
+
+
