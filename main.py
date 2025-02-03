@@ -22,7 +22,7 @@ def display_stock_details(stock_info, performance, news):
 
 def main():
     symbol = input("Enter stock symbol: ").strip().upper()
-    genai_api_key = "AIzaSyDCRZOok-jCCpl-q5kCSXR9fhA3lpdflvY"
+    genai_api_key = "####"
     news_api_key = "bc31920a622745e088b1880b550165a3"
 
     analyzer = StockDataAnalyzer(symbol, genai_api_key, news_api_key)
